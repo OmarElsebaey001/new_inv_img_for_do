@@ -29,3 +29,7 @@ def show():
     del full_pic
     buf.seek(0)
     return send_file(buf,mimetype='image/jpeg')
+
+@app.route("/hi")
+def hi():
+    return "Helllllo"
