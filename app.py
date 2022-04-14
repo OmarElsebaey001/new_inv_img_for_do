@@ -1,4 +1,3 @@
-[label app.py]
 from operator import methodcaller
 from flask import make_response,Flask,render_template
 from flask import request, jsonify
